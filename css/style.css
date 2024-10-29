@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic');
+
+body {
+    font: 13px/16px "Open Sans", sans-serif;
+    background: #dfdfdf;
+}
+
+.container {
+    padding: 20px;
+    width: 300px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 4px 15px;
+    width: 70%;
+}
+
+#button {
+    display: inline-block;
+    background-color: #fc999b;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 5px;
+    color: #000;
+    position: relative;
+}
+
+ol li:nth-child(even) {
+    background: #dfdfdf;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.crossOutButton {
+    position: absolute;
+    right: 5px;
+    background: none;
+    border: none;
+    color: #ff5e5e;
+    cursor: pointer;
+}
